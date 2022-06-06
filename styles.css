@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    font-family: 'Lato';
+}
+
+body{
+    background-color: lightblue;
+}
+
+.resume{
+    width: 850px;
+    background-color: white;
+    margin: 20px auto;
+    padding-bottom: 10px;
+}
+
+
+ /*------------------------------------ TOP ------------------------------------ */
+
+
+.top{
+    height: 180px;
+    background-color: darkblue;
+    color: white;
+}
+
+.profile-image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px 20px 20px 40px;
+}
+
+.top-text{
+    margin: 20px 0 10px 20px;
+    display: inline-block;
+    font-size: 35px;
+}
+
+.top-list{
+    display: inline-block;
+    list-style: none;
+    padding-left: 0;
+    margin-left: 20px;
+}
+
+.top-list i{
+    margin-right: 10px;
+}
+
+.top-list li{
+    margin: 7px 0;
+}
+
+
+/*------------------------------------ BOTTOM ------------------------------------ */
+
+
+.info-table{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.column1{
+    width: 30%;
+    padding: 20px;
+}
+
+.column2{
+    width: 50%;
+    padding: 20px;
+    line-height: 20px;
+    padding-left: 20px;
+}
+
+.column3{
+    width: 20%;
+    padding: 20px 30px 20px 20px;
+    line-height: 20px;
+    text-align: right;
+}
+
+.heading{
+    border: 2px solid darkblue;
+    color: darkblue;
+    padding: 10px 2px 10px 2px;
+}
+
+.td-content{
+    margin-left: 20px;
+}
+
+.column2 ul{
+    padding-left: 15px;
+}
